@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body,
+h1,
+p,
+label,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#intro {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="date"] {
+  font-size: 1em;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#submitBtn {
+  font-size: 1.2em;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+#submitBtn:hover {
+  background-color: #45a049;
+}
+
+#result {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
